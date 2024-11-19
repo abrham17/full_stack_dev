@@ -1,0 +1,34 @@
+.main-product-image {
+    height: 400px;
+    object-fit: cover;
+}
+
+.thumbnail-image {
+    height: 80px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .main-product-image {
+        height: 300px;
+
+    }
+
+}
+.filled {
+    color: red;
+}
+.unfilled {
+    color: gray;
+}
+.quantity-selector{
+    border: 1px solid black;
+    width: fit-content;
+    margin-bottom: 10px;
+    height: max-content;
+}
+.quantity-box p{
+    padding: 10px;
+}
+
